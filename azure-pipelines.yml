@@ -11,5 +11,7 @@ pool:
 
 steps:
 - script: python3 -m pip install Flask==1.1.2
+  displayName: 'Install flask'
+
+- script: flask run
   displayName: 'Run flask web app'
-  script: flask run
